@@ -1,75 +1,40 @@
-:root {
-    --bg-color: #0a0a0a;
-    --card-bg: #161616;
-    --accent: #00d4ff;
-    --text: #ffffff;
-}
-
 body {
+    background-color: #0b0e14;
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
     margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: var(--bg-color);
-    color: var(--text);
-    scroll-behavior: smooth;
-}
-
-#navbar {
-    display: flex;
-    justify-content: space-around;
-    padding: 20px;
-    background: rgba(0, 0, 0, 0.8);
-    position: fixed;
-    width: 100%;
-    z-index: 1000;
-}
-
-.hero {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     text-align: center;
 }
 
-.highlight { color: var(--accent); }
+header {
+    padding: 100px 20px;
+    background: linear-gradient(45deg, #1f4068, #1b1b2f);
+}
 
 .project-grid {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 20px;
     padding: 50px;
     flex-wrap: wrap;
 }
 
-.project-card {
-    background: var(--card-bg);
-    border: 1px solid #333;
-    padding: 25px;
-    border-radius: 12px;
-    width: 300px;
-    transition: 0.3s ease;
+.card {
+    background: #16213e;
+    border: 1px solid #00d4ff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    transition: 0.3s;
 }
 
-.project-card:hover {
-    border-color: var(--accent);
+.card:hover {
     transform: translateY(-10px);
+    box-shadow: 0 0 20px #00d4ff;
 }
 
-.project-link {
-    display: inline-block;
-    margin-top: 15px;
-    color: var(--accent);
+a {
+    color: #00d4ff;
     text-decoration: none;
-    font-weight: bold;
-}
-
-.btn {
-    margin-top: 20px;
-    padding: 12px 30px;
-    background: var(--accent);
-    color: black;
-    text-decoration: none;
-    border-radius: 5px;
     font-weight: bold;
 }
