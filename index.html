@@ -1,36 +1,62 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio | Internship Task 04</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <h1>My Developer Portfolio</h1>
-        <p>Web Development Intern at Prodigy Infotech</p>
-    </header>
+<nav id="navbar">
+    <div class="logo">KRITTIKA<span>.DEV</span></div>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+    </ul>
+</nav>
 
-    <section id="projects">
-        <h2>Completed Tasks</h2>
-        <div class="project-grid">
-            <div class="card">
-                <h3>01. Stopwatch</h3>
-                <p>Logic-based timer with lap records.</p>
-                <a href="https://your-username.github.io/PRODIGY_WD_02/" target="_blank">View Project</a>
-            </div>
+<section id="home" class="hero">
+    <h1>Hi, I'm <span class="highlight">Krittika</span></h1>
+    <p>B.Tech CSE Student & IITM BS Data Science Scholar</p>
+    <p>Web Development Intern at Prodigy Infotech</p>
+</section>
 
-            <div class="card">
-                <h3>02. Tic-Tac-Toe</h3>
-                <p>Interactive game with win-detection.</p>
-                <a href="https://your-username.github.io/PRODIGY_WD_03/" target="_blank">View Project</a>
-            </div>
+<section id="education">
+    <h2 class="section-title">Education</h2>
+    <div class="timeline">
+        <div class="timeline-item">
+            <h3>IIT Madras</h3>
+            <p>BS in Data Science & Applications (Pursuing)</p>
         </div>
-    </section>
+        <div class="timeline-item">
+            <h3>B.Tech - 1st Year</h3>
+            <p>Computer Science & Engineering</p>
+        </div>
+        <div class="timeline-item">
+            <h3>ISC / ICSE</h3>
+            <p>Science Stream Graduate</p>
+        </div>
+    </div>
+</section>
 
-    <footer>
-        <p>Working towards my LOR @ Prodigy Infotech</p>
-    </footer>
-</body>
-</html>
+<section id="skills">
+    <h2 class="section-title">Technical Skills</h2>
+    <div class="skills-container">
+        <span class="skill-badge">C++ (DSA)</span>
+        <span class="skill-badge">Java</span>
+        <span class="skill-badge">HTML5</span>
+        <span class="skill-badge">CSS3</span>
+        <span class="skill-badge">JavaScript</span>
+        <span class="skill-badge">Data Structures</span>
+        <span class="skill-badge">Python</span>
+    </div>
+</section>
+
+<section id="projects">
+    <h2 class="section-title">Internship Projects</h2>
+    <div class="project-grid">
+        <div class="project-card">
+            <h3>Stopwatch App</h3>
+            <p>Task-02: Precision timer with lap recording.</p>
+            <a href="https://KrittikaDey-ctrl.github.io/PRODIGY_WD_02/" target="_blank" class="project-link">Live Demo</a>
+        </div>
+        <div class="project-card">
+            <h3>Tic-Tac-Toe</h3>
+            <p>Task-03: Interactive game with win-detection logic.</p>
+            <a href="https://KrittikaDey-ctrl.github.io/PRODIGY_WD_03/" target="_blank" class="project-link">Live Demo</a>
+        </div>
+    </div>
+</section>
